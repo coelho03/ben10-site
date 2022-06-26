@@ -1,0 +1,114 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html, body{
+	height: 100%;
+}
+#site{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+header{
+	width: 100%;
+	height: 10%;
+	background-color: #16AE58;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+#menu_btn{
+	width: 50%;
+}
+#menu_atalhos{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+
+	height: 100%;
+}
+#menu_atalhos li{
+	list-style: none;
+}
+#menu_atalhos a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+	margin-left: 10px;
+	border-style: solid;
+	border-radius: 2px;
+	color: white;
+}
+#menu_atalhos a:hover{
+	background-color: #C6E115;
+}
+#cadastro_btn{
+	width: 20%;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+#cadastro_btn a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+
+	border-style: solid;
+	border-radius: 2px;
+	color: white;
+}
+#cadastro_btn a:hover{
+	background-color: #C6E115;
+}
+main{
+	height: auto;
+	width: 100%;
+	background-color: #16AE58;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	gap: 30px 20px;
+}
+main .produto{
+	height: 300px;
+	width: 30%;
+	border-style: solid;
+	border-radius: 8px;
+	border-color: #E6EB08;
+	border-width: 3px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+.produto img{
+	width: 50%;
+	height: 90%;
+}
+footer{
+	width: 100%;
+	height: 7%;
+	
+	background-color: #16AE58;
+
+	align-self: flex-end;
+}
